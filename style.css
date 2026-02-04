@@ -101,6 +101,7 @@ main div img {
     width: full;
     margin-top: 50px;
     justify-self: center;
+    border-radius: 5px;
 }
 
 .trusted {
@@ -166,6 +167,11 @@ main div img {
     color: red;
     margin-top: 10px;
     font-size: 18px;
+    cursor: pointer;
+}
+
+.card .text button:hover {
+    color: rgb(180, 18, 18);
 }
 
 .card img {
@@ -264,6 +270,11 @@ main div img {
     color: red;
     margin-top: 10px;
     font-size: 16px;
+    cursor: pointer;
+}
+
+.features .feature-cards .feature-card .feature-text button:hover {
+    color: rgb(180, 18, 18);
 }
 
 .features .feature-cards .feature-card .feature-image img {
@@ -321,6 +332,11 @@ main div img {
     margin-top: 10px;
     font-size: 16px;
     margin-top: 20px;
+    cursor: pointer;
+}
+
+.changelog button:hover {
+    color: rgb(180, 18, 18);
 }
 
 .teams {
@@ -407,6 +423,11 @@ main div img {
     margin-top: 20px;
     margin-bottom: 20px;
     align-self: start;
+    cursor: pointer;
+}
+
+.highlights .highlight-cards button:hover {
+    color: rgb(180, 18, 18);
 }
 
 .cta {
@@ -430,6 +451,11 @@ main div img {
     padding: 10px 20px;
     border-radius: 50px;
     font-size: 16px;
+    cursor: pointer;
+}
+
+.cta .button button:hover {
+    background-color: var(--hover-color);
 }
 
 footer {
