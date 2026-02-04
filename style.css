@@ -276,6 +276,7 @@ main div img {
     /* font-family: var(--font-sans); */
     width: 86%;
     margin: 10px auto;
+    margin-top: 100px;
 }
 
 .changelog .changelog-cards {
